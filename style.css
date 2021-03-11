@@ -404,3 +404,40 @@ header {
   opacity: 1;
   visibility: visible;
 }
+
+.sessao-contato {
+  width: 100%;
+  height: 100vh;
+  background-color: #272727;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato-wrapper {
+  width: 60%;
+  height: 30rem;
+  display: flex;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+}
+
+.contato-left {
+  width: 35%;
+  background: linear-gradient(rgba(15, 15, 15, 0.3), rgba(22, 22, 22, 0.7)),
+    url(imagens/contato.jpg);
+  background-size: cover;
+}
+
+.contato-right {
+  width: 65%;
+  background-color: #eee;
+  padding: 1rem 3rem 3rem 3rem;
+}
+
+.sessao-contato h1 {
+  margin: auto;
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  color: #585858;
+  border-bottom: solid 3px #6a3093;
+}
